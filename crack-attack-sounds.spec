@@ -1,6 +1,6 @@
 %define name crack-attack-sounds
 %define version 1
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary:	Sound files for crack-attack
 Name:		%{name}
