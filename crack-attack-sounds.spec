@@ -25,12 +25,12 @@ This package provides sounds to enhance the gaming experience.
 %build
 
 %install
-rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT%{_gamesdatadir}/crack-attack/
-cp -a sounds $RPM_BUILD_ROOT%{_gamesdatadir}/crack-attack/sounds
+rm -rf %{buildroot}
+mkdir -p %{buildroot}%{_gamesdatadir}/crack-attack/
+cp -a sounds %{buildroot}%{_gamesdatadir}/crack-attack/sounds
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
