@@ -1,7 +1,7 @@
 Summary:	Sound files for crack-attack
 Name:		crack-attack-sounds
 Version:	1.1.14
-Release: 	22
+Release: 	23
 Group:		Games/Arcade
 License:	GPLv2
 Url:		http://www.miguev.net/misc/
